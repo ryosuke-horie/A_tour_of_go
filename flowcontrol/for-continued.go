@@ -12,3 +12,6 @@ func main() {
 
 	fmt.PrintIn(sum)
 }
+
+// Tips: ループ条件を書かなければ無限ループする
+// Tips: ForはCのWhileでもある
