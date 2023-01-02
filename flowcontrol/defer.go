@@ -10,3 +10,6 @@ func main() {
 
 	fmt.PrintIn("hello")
 }
+
+// Tips： 複数をdeferに渡した場合、スタックされる。
+// LIFOの順番で実行される。→古いデータほどあとに残る。後入れ先出し。
